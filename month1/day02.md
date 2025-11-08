@@ -1,6 +1,6 @@
 ## Month 1 - Day 01 - Python Install
-- ⏱ Time: 30 mins
-- ✅ Resource: [python.org/downloads](https://www.python.org/downloads/)
-- 🛠 Output: [hello.py](hello.py) | [Screenshot of terminal output](screenshots/day01.png)
-- 💡 Takeaway: Python is now installed and PATH-enabled: I can run scripts from any directory-criical for automaticon in SOC environments.
+- ⏱ Time: 1 hr
+- ✅ Resource: [ATBS Ch1](https://automatetheboringstuff.com/2e/chapter1/)
+- 🛠 Output: [day02.py](day02.py) | [Screenshot of terminal output](screenshots/day02.png)
+- 💡 Takeaway: Variables let me dynamically store and reference IPs-core to buildig detection rules from log data.
 - ✅ Comitted to GitHub
