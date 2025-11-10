@@ -1,0 +1,23 @@
+# Fake Windows Auth Logs - Generated Day 5
+# Format: MM/DD/YYYY HH:MM:SS AM/PM - EventID: XXXX - Account: user - Workstation: XXX - Source IP: X.X.X.X - Description
+
+11/01/2025 09:45:00 AM - EventID: 4625 - Account: charlie - Workstation: LAPTOP-03 - Source IP: 198.51.100.5 - {event_desc[event]}
+11/01/2025 08:50:00 AM - EventID: 4625 - Account: charlie - Workstation: SERVER-01 - Source IP: 203.0.113.27 - {event_desc[event]}
+11/01/2025 08:36:00 AM - EventID: 4624 - Account: dave - Workstation: WKSTN-01 - Source IP: 192.168.1.32 - {event_desc[event]}
+11/01/2025 08:15:00 AM - EventID: 4625 - Account: charlie - Workstation: WKSTN-01 - Source IP: 172.16.0.1 - {event_desc[event]}
+11/01/2025 09:25:00 AM - EventID: 4624 - Account: bob - Workstation: WKSTN-02 - Source IP: 192.168.1.33 - {event_desc[event]}
+11/01/2025 09:31:00 AM - EventID: 4624 - Account: eve - Workstation: LAPTOP-03 - Source IP: 192.168.1.43 - {event_desc[event]}
+11/01/2025 09:18:00 AM - EventID: 4624 - Account: bob - Workstation: WKSTN-02 - Source IP: 192.168.1.38 - {event_desc[event]}
+11/01/2025 10:00:00 AM - EventID: 4634 - Account: charlie - Workstation: LAPTOP-03 - Source IP: 192.168.1.39 - {event_desc[event]}
+11/01/2025 08:53:00 AM - EventID: 4625 - Account: dave - Workstation: WKSTN-01 - Source IP: 10.0.0.55 - {event_desc[event]}
+11/01/2025 08:15:00 AM - EventID: 4625 - Account: eve - Workstation: WKSTN-01 - Source IP: 203.0.113.27 - {event_desc[event]}
+11/01/2025 08:12:00 AM - EventID: 4634 - Account: bob - Workstation: SERVER-01 - Source IP: 192.168.1.12 - {event_desc[event]}
+11/01/2025 08:28:00 AM - EventID: 4634 - Account: eve - Workstation: SERVER-01 - Source IP: 192.168.1.47 - {event_desc[event]}
+11/01/2025 08:43:00 AM - EventID: 4625 - Account: eve - Workstation: WKSTN-02 - Source IP: 198.51.100.5 - {event_desc[event]}
+11/01/2025 09:37:00 AM - EventID: 4625 - Account: dave - Workstation: SERVER-01 - Source IP: 203.0.113.27 - {event_desc[event]}
+11/01/2025 09:18:00 AM - EventID: 4634 - Account: eve - Workstation: WKSTN-02 - Source IP: 192.168.1.46 - {event_desc[event]}
+11/01/2025 08:40:00 AM - EventID: 4634 - Account: dave - Workstation: SERVER-01 - Source IP: 192.168.1.45 - {event_desc[event]}
+11/01/2025 08:40:00 AM - EventID: 4634 - Account: charlie - Workstation: WKSTN-01 - Source IP: 192.168.1.38 - {event_desc[event]}
+11/01/2025 08:02:00 AM - EventID: 4625 - Account: dave - Workstation: WKSTN-01 - Source IP: 203.0.113.27 - {event_desc[event]}
+11/01/2025 08:37:00 AM - EventID: 4624 - Account: bob - Workstation: WKSTN-01 - Source IP: 192.168.1.39 - {event_desc[event]}
+11/01/2025 08:44:00 AM - EventID: 4625 - Account: eve - Workstation: LAPTOP-03 - Source IP: 198.51.100.5 - {event_desc[event]}
