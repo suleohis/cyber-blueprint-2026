@@ -1,23 +1,18 @@
-# Fake Windows Auth Logs - Generated Day 5
-# Format: MM/DD/YYYY HH:MM:SS AM/PM - EventID: XXXX - Account: user - Workstation: XXX - Source IP: X.X.X.X - Description
+# Fake Auth Logs - BRUTE FORCE INJECTED (Day 9)
+# 5 failed logins from 203.0.113.27 in 12 mins
 
-11/01/2025 09:29:00 AM - EventID: 4624 - Account: bob - Workstation: WKSTN-02 - Source IP: 192.168.1.26 - {event_desc[event]}
-11/01/2025 09:50:00 AM - EventID: 4625 - Account: eve - Workstation: WKSTN-02 - Source IP: 192.168.1.100 - {event_desc[event]}
-11/01/2025 08:07:00 AM - EventID: 4624 - Account: bob - Workstation: SERVER-01 - Source IP: 192.168.1.11 - {event_desc[event]}
-11/01/2025 08:46:00 AM - EventID: 4634 - Account: bob - Workstation: SERVER-01 - Source IP: 192.168.1.16 - {event_desc[event]}
-11/01/2025 08:37:00 AM - EventID: 4625 - Account: bob - Workstation: SERVER-01 - Source IP: 10.0.0.55 - {event_desc[event]}
-11/01/2025 09:14:00 AM - EventID: 4624 - Account: bob - Workstation: SERVER-01 - Source IP: 192.168.1.42 - {event_desc[event]}
-11/01/2025 09:45:00 AM - EventID: 4625 - Account: dave - Workstation: WKSTN-01 - Source IP: 10.0.0.55 - {event_desc[event]}
-11/01/2025 08:11:00 AM - EventID: 4625 - Account: bob - Workstation: LAPTOP-03 - Source IP: 172.16.0.1 - {event_desc[event]}
-11/01/2025 08:59:00 AM - EventID: 4624 - Account: eve - Workstation: LAPTOP-03 - Source IP: 192.168.1.32 - {event_desc[event]}
-11/01/2025 08:13:00 AM - EventID: 4634 - Account: dave - Workstation: WKSTN-01 - Source IP: 192.168.1.18 - {event_desc[event]}
-11/01/2025 09:56:00 AM - EventID: 4624 - Account: dave - Workstation: WKSTN-02 - Source IP: 192.168.1.16 - {event_desc[event]}
-11/01/2025 08:22:00 AM - EventID: 4634 - Account: eve - Workstation: LAPTOP-03 - Source IP: 192.168.1.28 - {event_desc[event]}
-11/01/2025 09:56:00 AM - EventID: 4625 - Account: bob - Workstation: WKSTN-01 - Source IP: 198.51.100.5 - {event_desc[event]}
-11/01/2025 09:09:00 AM - EventID: 4624 - Account: alice - Workstation: LAPTOP-03 - Source IP: 192.168.1.11 - {event_desc[event]}
-11/01/2025 08:48:00 AM - EventID: 4624 - Account: bob - Workstation: SERVER-01 - Source IP: 192.168.1.42 - {event_desc[event]}
-11/01/2025 08:13:00 AM - EventID: 4634 - Account: bob - Workstation: WKSTN-01 - Source IP: 192.168.1.44 - {event_desc[event]}
-11/01/2025 09:24:00 AM - EventID: 4634 - Account: bob - Workstation: WKSTN-02 - Source IP: 192.168.1.34 - {event_desc[event]}
-11/01/2025 08:46:00 AM - EventID: 4624 - Account: charlie - Workstation: WKSTN-01 - Source IP: 192.168.1.16 - {event_desc[event]}
-11/01/2025 08:02:00 AM - EventID: 4624 - Account: dave - Workstation: SERVER-01 - Source IP: 192.168.1.38 - {event_desc[event]}
-11/01/2025 09:01:00 AM - EventID: 4624 - Account: alice - Workstation: SERVER-01 - Source IP: 192.168.1.17 - {event_desc[event]}
+11/01/2025 09:06:00 AM - EventID: 4625 - Account: charlie - Workstation: WKSTN-01 - Source IP: 203.0.113.27 - failed to log on
+11/01/2025 09:26:00 AM - EventID: 4624 - Account: alice - Workstation: LAPTOP-03 - Source IP: 192.168.1.37 - logged on
+11/01/2025 09:09:00 AM - EventID: 4625 - Account: charlie - Workstation: WKSTN-01 - Source IP: 203.0.113.27 - failed to log on
+11/01/2025 09:00:00 AM - EventID: 4625 - Account: charlie - Workstation: WKSTN-01 - Source IP: 203.0.113.27 - failed to log on
+11/01/2025 09:12:00 AM - EventID: 4625 - Account: charlie - Workstation: WKSTN-01 - Source IP: 203.0.113.27 - failed to log on
+11/01/2025 11:14:00 AM - EventID: 4624 - Account: dave - Workstation: LAPTOP-03 - Source IP: 192.168.1.15 - logged on
+11/01/2025 10:43:00 AM - EventID: 4634 - Account: alice - Workstation: LAPTOP-03 - Source IP: 192.168.1.42 - logged off
+11/01/2025 10:45:00 AM - EventID: 4624 - Account: dave - Workstation: LAPTOP-03 - Source IP: 192.168.1.32 - logged on
+11/01/2025 10:44:00 AM - EventID: 4624 - Account: bob - Workstation: LAPTOP-03 - Source IP: 192.168.1.42 - logged on
+11/01/2025 09:28:00 AM - EventID: 4624 - Account: dave - Workstation: LAPTOP-03 - Source IP: 192.168.1.50 - logged on
+11/01/2025 09:56:00 AM - EventID: 4624 - Account: bob - Workstation: LAPTOP-03 - Source IP: 192.168.1.11 - logged on
+11/01/2025 09:03:00 AM - EventID: 4625 - Account: charlie - Workstation: WKSTN-01 - Source IP: 203.0.113.27 - failed to log on
+11/01/2025 09:35:00 AM - EventID: 4634 - Account: alice - Workstation: LAPTOP-03 - Source IP: 192.168.1.43 - logged off
+11/01/2025 11:21:00 AM - EventID: 4634 - Account: dave - Workstation: LAPTOP-03 - Source IP: 192.168.1.35 - logged off
+11/01/2025 10:29:00 AM - EventID: 4624 - Account: dave - Workstation: LAPTOP-03 - Source IP: 192.168.1.16 - logged on

@@ -1,46 +1,41 @@
-# Day 5: Generate Fake Windows Auth Log
-# Output: fake_auth.log with 20 realistic Windows
-
+# month1/generate_logs.py – INJECT 5 FAILS IN 12 MINS
 import random
 from datetime import datetime, timedelta
 
-# Sample data
-users = ['alice', 'bob', 'charlie', 'dave', 'eve']
-workstations = ['WKSTN-01', 'WKSTN-02', 'LAPTOP-03', 'SERVER-01']
-ips = ['192.168.1.100', '10.0.0.55', '203.0.113.27', "198.51.100.5", '172.16.0.1']
-event_ids = [4624, 4625, 4634] # Success, Failed, Logoff
-event_desc = {
-    4624: 'An account was successfully logged on.',
-    4625: 'An account failed to log on.',
-    4634: 'An account was logged off.'
-}
-
-# Generate 20 log lines
 log_lines = []
-start_time = datetime(2025, 11, 1, 8, 0, 0)
+start_time = datetime(2025, 11, 1, 9, 0, 0)
 
-for i in range(20):
-    timestamp = start_time + timedelta(minutes=random.randint(0, 120))
-    event = random.choice(event_ids)
-    user = random.choice(users)
-    workstation = random.choice(workstations)
-    ip = random.choice(ips) if event == 4625 else "192.168.1." + str(random.randint(10, 50))
-
-    log_line = (
-        f"{timestamp.strftime('%m/%d/%Y %I:%M:%S %p')} - "
-        f"EventID: {event} - "
-        f"Account: {user} - "
-        f"Workstation: {workstation} - "
-        f"Source IP: {ip} - "
-        f"{{event_desc[event]}}"
+# === FORCE BRUTE-FORCE: 5 FAILED LOGINS IN 12 MINS ===
+brute_ip = "203.0.113.27"
+brute_user = "charlie"
+times = [0, 3, 6, 9, 12]  # minutes
+for m in times:
+    t = start_time + timedelta(minutes=m)
+    log_lines.append(
+        f"{t.strftime('%m/%d/%Y %I:%M:%S %p')} - "
+        f"EventID: 4625 - Account: {brute_user} - Workstation: WKSTN-01 - "
+        f"Source IP: {brute_ip} - failed to log on"
     )
-    log_lines.append(log_line)
 
-# Write to file
+# === ADD 10 NORMAL LOGS ===
+for _ in range(10):
+    t = start_time + timedelta(minutes=random.randint(15, 180))
+    event = random.choice([4624, 4634])
+    user = random.choice(["alice", "bob", "dave"])
+    ip = f"192.168.1.{random.randint(10, 50)}"
+    desc = "logged on" if event == 4624 else "logged off"
+    log_lines.append(
+        f"{t.strftime('%m/%d/%Y %I:%M:%S %p')} - "
+        f"EventID: {event} - Account: {user} - Workstation: LAPTOP-03 - "
+        f"Source IP: {ip} - {desc}"
+    )
+
+# Write
+random.shuffle(log_lines)
 with open('month1/fake_auth.log', 'w') as f:
-    f.write("# Fake Windows Auth Logs - Generated Day 5\n")
-    f.write('# Format: MM/DD/YYYY HH:MM:SS AM/PM - EventID: XXXX - Account: user - Workstation: XXX - Source IP: X.X.X.X - Description\n\n')
+    f.write("# Fake Auth Logs - BRUTE FORCE INJECTED (Day 9)\n")
+    f.write("# 5 failed logins from 203.0.113.27 in 12 mins\n\n")
     for line in log_lines:
-        f.write(line + '\n')
+        f.write(line + "\n")
 
-print("Generated 20 fake auth logs - month1/fake_auth.log")
+print("Injected brute-force → fake_auth.log")
