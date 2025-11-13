@@ -1,0 +1,8 @@
+{
+    "log_file": "month1/fake_auth.log",
+    "output_file": "month1/alerts.json",
+    "threshold_count": 3,
+    "time_window_minutes": 15,
+    "log_level": "INFO",
+    "alert_title": "BRUTE_FORCE_15MIN"
+}
