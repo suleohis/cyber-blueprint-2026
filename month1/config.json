@@ -4,5 +4,11 @@
     "threshold_count": 3,
     "time_window_minutes": 15,
     "log_level": "INFO",
-    "alert_title": "BRUTE_FORCE_15MIN"
+    "alert_title": "BRUTE_FORCE_15MIN",
+
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "email_from": "suleephraim1@gmail.com",
+    "email_to": "cyberlootkeeper@gmail.com",
+    "email_password": "uwijddtfwdtmmony"
 }
