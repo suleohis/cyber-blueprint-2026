@@ -2,56 +2,72 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AUTO REFRESH EVERY 30 SECONDS-->
+    <meta http-equiv="refresh" content="30">
     <title>SOC Dashboard - Brute-Force Alerts</title>
+    <!-- Bootsrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
-        body {
-            font-family: Arial;
-            margin: 40px;
+        .alert-critical {
+            background-color: #ffebee;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        .timestamp {
+            font-family: monospace;
+            font-size: 0.9em;
         }
-
-        th,
-        td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background: #f0f0f0;
-        }
-        .critical { background: #ffebee; }
     </style>
 </head>
-<body>
-    <h1> SOC Dashboard - Brute-Force Alerts</h1>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-5 text-danger fw-bold">
+                    SOC Dashboard - Brute-Force Alerts
+                </h1>
+                <p class="text-muted">
+                    Auto-refreshes every 30 seconds
+                </p>
+            </div>
+        </div>
+    </div>
+
     {% if alerts %}
-    <table>
-        <tr>
-            <th>IP</th>
-            <th>Attempts</th>
-            <th>Window (mins)</th>
-            <th>First</th>
-            <th>Last</th>
-            <th>Lines</th>
-        </tr>
-        {% for alert in alerts %}
-        <tr class="critical">
-            <td>{{ alert.ip }}</td>
-            <td>{{ alert.attempt_count }}</td>
-            <td>{{ alert.window_minutes }}</td>
-            <td>{{ alert.first_attempt }}</td>
-            <td>{{ alert.last_attempt }}</td>
-            <td>{{ alert.log_lines }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+    <div class="table-responsive">
+        <table class="table table-hover align middle">
+            <thead class="table-danger">
+                <tr>
+                    <th>IP</th>
+                    <th>Attempts</th>
+                    <th>Window (mins)</th>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Lines</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for alert in alerts %}
+                <tr class="alert-critical">
+                    <td><strong>{{ alert.ip }}</strong></< /td>
+                    <td><span class="badge bg-danger">{{ alert.attempt_count }}</span></td>
+                    <td>{{ alert.window_minutes }}</td>
+                    <td class="timestamp">{{ alert.first_attempt }}</td>
+                    <td class="timestamp">{{ alert.last_attempt }}</td>
+                    <td><code>{{ alert.log_lines }}</code></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
     {% else %}
-    <p>No active alerts.</p>
+    <div class="alert alert-success" role="alert">
+        <strong>No active alerts.</strong> All systems nominal.
+    </div>
     {% endif %}
 </body>
+
 </html>
