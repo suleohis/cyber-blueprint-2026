@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SOC Dashboard - Brute-Force Alerts</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #f0f0f0;
+        }
+        .critical { background: #ffebee; }
+    </style>
+</head>
+<body>
+    <h1> SOC Dashboard - Brute-Force Alerts</h1>
+    {% if alerts %}
+    <table>
+        <tr>
+            <th>IP</th>
+            <th>Attempts</th>
+            <th>Window (mins)</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Lines</th>
+        </tr>
+        {% for alert in alerts %}
+        <tr class="critical">
+            <td>{{ alert.ip }}</td>
+            <td>{{ alert.attempt_count }}</td>
+            <td>{{ alert.window_minutes }}</td>
+            <td>{{ alert.first_attempt }}</td>
+            <td>{{ alert.last_attempt }}</td>
+            <td>{{ alert.log_lines }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p>No active alerts.</p>
+    {% endif %}
+</body>
+</html>

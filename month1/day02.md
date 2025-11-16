@@ -1,4 +1,4 @@
-## Month 1 - Day 01 - Python Install
+## Month 1 - Day 02 – Variables/Print
 - ⏱ Time: 1 hr
 - ✅ Resource: [ATBS Ch1](https://automatetheboringstuff.com/2e/chapter1/)
 - 🛠 Output: [day02.py](day02.py) | [Screenshot of terminal output](screenshots/day02.png)
