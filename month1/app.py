@@ -4,6 +4,7 @@ from datetime import datetime
 import json
 import os
 import shutil
+import subprocess
 
 app = Flask(__name__)
 ALERTS_FILE = 'month1/alerts.json'
@@ -61,6 +62,11 @@ def clear_alerts():
                 json.dump(history, f, indent=2)
             
         os.remove(ALERTS_FILE)
+    return redirect(url_for('dashboard'))
+
+@app.route('/run-now')
+def run_now():
+    subprocess.run(["python3", "month1/run_detector.py"], cwd=".")
     return redirect(url_for('dashboard'))
 
 if __name__ == '__main__':
