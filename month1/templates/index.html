@@ -44,6 +44,12 @@
             <span class="text-muted ms-3">
                 Last updated: {{ last_updated }}
             </span>
+            <form method="POST" action="{{ url_for('clear_alerts') }}" class="d-inline">
+                <button type="submit" class="btn btn-outline-danger btn-sm"
+                        onclick="return confirm('Close all alerts? This cannot be undone.')">
+                    Clear All Alerts
+                </button>
+            </form>
         </div>
     <!-- END STATS -->
 

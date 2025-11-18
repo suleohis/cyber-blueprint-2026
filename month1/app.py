@@ -1,5 +1,5 @@
 # Day 12: Flask Web Dashboard
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, redirect, url_for
 from datetime import datetime
 import json
 import os
@@ -22,6 +22,12 @@ def dashboard():
 def api_alerts():
     alerts = load_alerts()
     return jsonify(alerts)
+
+@app.route('/clear', methods=['POST'])
+def clear_alerts():
+    if os.path.exists(ALERTS_FILE):
+        os.remove(ALERTS_FILE)
+    return redirect(url_for('dashboard'))
 
 if __name__ == '__main__':
     app.run(debug=True)
