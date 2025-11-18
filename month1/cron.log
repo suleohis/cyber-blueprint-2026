@@ -21,3 +21,22 @@
 }
 2025-11-18 11:00:01,403 | INFO | === EMAIL ALERTS MODULE STARTED ===
 2025-11-18 11:00:01,405 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+Traceback (most recent call last):
+  File "/home/cyber/cyber-blueprint-2026/month1/email_alerts.py", line 96, in <module>
+    with smtplib.SMTP(config['smtp_server'], config['smtp_port']) as server:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.12/socket.py", line 837, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+[2025-11-18 11:02:16.790769] Detection cycle complete
