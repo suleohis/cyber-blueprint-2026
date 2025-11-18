@@ -36,6 +36,17 @@
         </div>
     </div>
 
+    <!-- LIVE STATS -->
+        <div class="row mb-3">
+            <div class="alert alert-danger d-inline-block p-2">
+                <strong>Active Alerts: {{ alert_count }}</strong>
+            </div>
+            <span class="text-muted ms-3">
+                Last updated: {{ last_updated }}
+            </span>
+        </div>
+    <!-- END STATS -->
+
     {% if alerts %}
     <div class="table-responsive">
         <table class="table table-hover align middle">

@@ -1,5 +1,6 @@
 # Day 12: Flask Web Dashboard
 from flask import Flask, render_template, jsonify
+from datetime import datetime
 import json
 import os
 
@@ -15,7 +16,7 @@ def load_alerts():
 @app.route('/')
 def dashboard():
     alerts = load_alerts()
-    return render_template('index.html', alerts=alerts)
+    return render_template('index.html', alerts=alerts, alert_count=len(alerts), last_updated=datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 @app.route('/api/alerts')
 def api_alerts():
