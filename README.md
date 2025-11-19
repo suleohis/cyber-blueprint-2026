@@ -1,22 +1,31 @@
-# Cyber Blueprint 2026 – From Day 1 to Full Autonomous SOC in 20 Days 🇳🇬
+# Nigeria's First Autonomous SOC – Built in 30 Days 🇳🇬
 
-**Goal**: Land a $70k+ SOC Analyst / Blue Team role in 12 months  
-**Track**: Python → Detection → Automation → SOAR  
-**Proof of Work**: 365 daily commits (publicly auditable)
+A fully automated brute-force detection + response system:
+- Parses SSH logs
+- Detects attacks in real time
+- Sends email alerts
+- Live Flask dashboard with auto-refresh
+- Auto-blocks IPs
+- Archives history
+- Runs 24/7 via cron
+- One-click start
 
-### The Journey (so far)
-- Day 1: Installed Python + first script  
-- Day 11: Built email alerting  
-- Day 12–15: Live Flask + Bootstrap dashboard  
-- Day 18: 24/7 cron automation  
-- **Day 19: Auto-blocking of attacking IPs**  
-- **Day 20: One-click deploy (`./start_soc.sh`)**
+**Live Demo**: http://127.0.0.1:5000 (after you run it)
 
-**Result after only 20 days → a complete, production-grade mini-SIEM + SOAR**
-
-### Live Autonomous SOC – One Command
+## Quick Start (60 seconds)
 
 ```bash
 git clone https://github.com/suleohis/cyber-blueprint-2026.git
 cd cyber-blueprint-2026
+chmod +x start_soc.sh
+
+# Option A: Full autonomous mode (recommended)
 ./start_soc.sh
+# → Dashboard opens at http://127.0.0.1:5000
+# → Detection runs every 5 minutes automatically
+
+# Option B: Manual mode (no cron)
+python3 month1/app.py
+
+# This command auto-detects your username and python path
+(crontab -l 2>/dev/null; echo "*/5 * * * * cd $(pwd) && $(which python3) month1/run_detector.py >> month1/cron.log 2>&1") | crontab -
