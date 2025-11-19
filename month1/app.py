@@ -15,6 +15,12 @@ def load_alerts():
             return json.load(f)
     return []
 
+def load_blocked_ips():
+    if os.path.exists('month1/blocked_ips.txt'):
+        with open('month1/blocked_ips.txt') as f:
+            return [line.strip() for line in f if line.strip()]
+    return []
+
 @app.route('/history')
 def history():
     history = []
@@ -26,14 +32,17 @@ def history():
 @app.route('/')
 def dashboard():
     alerts = load_alerts()
+    blocked = load_blocked_ips()
     history_count = 0
     if os.path.exists('month1/alerts_history.json'):
         with open('month1/alerts_history.json', 'r') as f:
             history_count = len(json.load(f))
-    return render_template(
-        'index.html', 
-        alerts=alerts, alert_count=len(alerts), 
-        last_updated=datetime.now().strftime("%Y-%m-%d %H:%M:%S"), history_count=history_count)
+    return render_template('index.html', 
+        alerts=alerts, 
+        alert_count=len(alerts), 
+        last_updated=datetime.now().strftime("%Y-%m-%d %H:%M:%S"), 
+        history_count=history_count,
+        blocked_ips=blocked)
 
 @app.route('/api/alerts')
 def api_alerts():

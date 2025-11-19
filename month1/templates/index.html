@@ -89,6 +89,24 @@
         <strong>No active alerts.</strong> All systems nominal.
     </div>
     {% endif %}
+    
+    <!-- After the Active Alerts row -->
+     <div class="row mt-4">
+        <div class="col">
+            <h5 class="text-warning">Blocked IPs (Auto-blocked)</h5>
+            {% if blocked_ips %}
+            <div class="alert alert-dark">
+                {% for ip in blocked_ips %}
+                <span class="badge bg-dark me-2">
+                    {{ ip }}
+                </span>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p class="text-muted">No IPs blocked yet.</p>
+            {% endif %}
+        </div>
+     </div>
 </body>
 
 </html>

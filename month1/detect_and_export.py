@@ -82,3 +82,10 @@ if alerts:
     logging.info(f"Sample: {json.dumps(alerts[0], indent=2)}")
 else:
     logging.info("No alerts generated.")
+
+# At the very end, after writing alerts.json
+BLOCKED_IPS_FILE = 'month1/blocked_ips.txt'
+
+with open(BLOCKED_IPS_FILE, 'a') as f:
+    for alert in alerts:
+        f.write(alert['ip'] + '\n')
