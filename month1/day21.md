@@ -1,0 +1,5 @@
+- ⏱ Time: 2 hrs
+- ✅ Resource: ATBS Ch.4 (Functions, pp. 73-85); your existing detector.py
+- 🛠 Output: Updated detector.py (link to GitHub), app.py integration screenshot (dashboard with new alerts)
+- 💡 Takeaway: Functions modularize code, making it SOC-scalable—like swapping regex for YARA rules later without rewriting everything.
+- ✅ Committed to GitHub
