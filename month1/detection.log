@@ -4123,3 +4123,310 @@
 2025-11-24 09:50:02,400 | INFO | === EMAIL ALERTS MODULE STARTED ===
 2025-11-24 09:50:02,401 | WARNING | ALERT: 203.0.113.27 → 4 attempts
 2025-11-24 09:50:12,870 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 09:55:01,968 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 09:55:01,968 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 09:55:01,972 | INFO | Parsed 5 failed logins
+2025-11-24 09:55:01,973 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 09:55:01,973 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 09:55:01,973 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 09:55:02,037 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 09:55:02,038 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 09:55:06,120 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:00:01,248 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:00:01,249 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:00:01,253 | INFO | Parsed 5 failed logins
+2025-11-24 10:00:01,253 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:00:01,253 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:00:01,253 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:00:01,319 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:00:01,321 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:00:10,480 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:05:01,966 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:05:01,966 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:05:01,970 | INFO | Parsed 5 failed logins
+2025-11-24 10:05:01,970 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:05:01,971 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:05:01,971 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:05:02,035 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:05:02,037 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:05:09,180 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:10:01,187 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:10:01,187 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:10:01,191 | INFO | Parsed 5 failed logins
+2025-11-24 10:10:01,191 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:10:01,192 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:10:01,192 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:10:01,257 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:10:01,259 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:10:12,584 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:15:01,698 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:15:01,698 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:15:01,703 | INFO | Parsed 5 failed logins
+2025-11-24 10:15:01,704 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:15:01,704 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:15:01,704 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:15:01,784 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:15:01,786 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:15:07,018 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:20:01,138 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:20:01,138 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:20:01,142 | INFO | Parsed 5 failed logins
+2025-11-24 10:20:01,142 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:20:01,143 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:20:01,143 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:20:01,208 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:20:01,209 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:25:01,413 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:25:01,413 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:25:01,417 | INFO | Parsed 5 failed logins
+2025-11-24 10:25:01,417 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:25:01,417 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:25:01,418 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:25:01,481 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:25:01,483 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:30:01,116 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:30:01,117 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:30:01,121 | INFO | Parsed 5 failed logins
+2025-11-24 10:30:01,121 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:30:01,121 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:30:01,121 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:30:01,185 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:30:01,187 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:35:01,097 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:35:01,097 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:35:01,102 | INFO | Parsed 5 failed logins
+2025-11-24 10:35:01,102 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:35:01,102 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:35:01,102 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:35:01,167 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:35:01,168 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:40:01,119 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:40:01,119 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:40:01,123 | INFO | Parsed 5 failed logins
+2025-11-24 10:40:01,124 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:40:01,124 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:40:01,124 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:40:01,192 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:40:01,194 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:40:04,420 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:45:01,568 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:45:01,568 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:45:01,574 | INFO | Parsed 5 failed logins
+2025-11-24 10:45:01,575 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:45:01,576 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:45:01,576 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:45:01,663 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:45:01,665 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:45:04,857 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:47:25,237 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:47:25,238 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:47:25,242 | INFO | Parsed 5 failed logins
+2025-11-24 10:47:25,242 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:47:25,242 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:47:25,243 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:47:25,341 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:47:25,345 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-24 10:47:28,708 | INFO | EMAIL SENT: 1 alert(s) to cyberlootkeeper@gmail.com
+2025-11-24 10:50:01,959 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-24 10:50:01,959 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-24 10:50:01,963 | INFO | Parsed 5 failed logins
+2025-11-24 10:50:01,963 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-24 10:50:01,963 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-24 10:50:01,964 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-24 10:50:02,028 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-24 10:50:02,030 | WARNING | ALERT: 203.0.113.27 → 4 attempts

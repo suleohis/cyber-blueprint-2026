@@ -46,13 +46,19 @@ def detect_anomalies(log_file, threshold=THRESHOLD, window_minutes=WINDOW_MINUTE
     # Check thresholds
     for ip, timestamps in fails_by_ip.items():
         if len(timestamps) >= threshold:
-            alerts.append({
-                'ip':ip,
-                'count':len(timestamps),
-                'first_seen':min(timestamps),
-                'last_seen': max(timestamps),
-                'severity': "HIGH" if len(timestamps) > 10 else "MEDIUM"
-            })
+            alert = {
+                'id': f"alert-{datetime.now().strftime('%Y%m%d%H%M%S')}-{ip.replace('.', '')}",
+                "timestamp": datetime.now().isoformat(),
+                "source_ip": ip,
+                "attempts": len(timestamps),
+                "first_seen": min(timestamps).isoformat(),
+                "last_seen": max(timestamps).isoforma(),
+                "severity": "CRITICAL" if len(timestamps) > 20 else "HIGH" if len(timestamps) > 10 else "MEDIUM",
+                "detection_rule": "SSH Brute Force (15-min window)",
+                "status": "new",
+                "tags": ["bruteforce", "ssh", "auth"]
+            }
+            alerts.append(alert)
     return alerts
 
 def export_alerts(alerts, file=ALERTS_FILE):
