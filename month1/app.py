@@ -1,5 +1,6 @@
 # Day 12: Flask Web Dashboard
 from flask import Flask, render_template, jsonify, redirect, url_for
+from detector import detect_anomalies, export_alerts, send_email
 from datetime import datetime
 import json
 import os
@@ -31,7 +32,8 @@ def history():
 
 @app.route('/')
 def dashboard():
-    alerts = load_alerts()
+    alerts = detect_anomalies('month1/fake_auth.log')
+    export_alerts(alerts, 'month1/alerts.json')
     blocked = load_blocked_ips()
     history_count = 0
     if os.path.exists('month1/alerts_history.json'):
@@ -75,7 +77,14 @@ def clear_alerts():
 
 @app.route('/run-now')
 def run_now():
-    subprocess.run(["python3", "month1/run_detector.py"], cwd=".")
+    alerts = detect_anomalies('month1/fake_auth.log')
+    export_alerts(alerts, 'month1/alerts.json')
+    if alerts:
+        send_email(alerts)
+        worst_ip = max(alerts, key=lambda x: x['count'])['ip']
+        with open('month1/blocked_ips.txt', 'a') as f:
+            if worst_ip not in load_blocked_ips():
+                f.write(worst_ip +  "\n")
     return redirect(url_for('dashboard'))
 
 if __name__ == '__main__':
