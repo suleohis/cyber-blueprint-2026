@@ -1,19 +1,14 @@
-# Day 23 – Regex Cheat Sheet (Now I Finally Get It)
-**Date:** 2025-11-24  
-**Focus:** Demystifying regular expressions for log parsing  
-**⏱ Time spent:** 45 minutes  
-**Resource:** This explanation + testing in detector.py
+# Day 24 – argparse CLI: Now a Real Security Tool
+**Date:** 2025-11-25
+**Focus:** Chapter 12 – Designing and Deploying Command Line Programs (ATBS 3rd Ed.)  
+**Time spent:** 40 minutes  
 
-### What I Learned
-- `.` = any character  
-- `*` = zero or more  
-- `\d` = a digit  
-- `( )` = remember this part  
-- That’s all regex you need for 90% of blue team work!
+### What I Did
+- Turned detector.py into a professional CLI tool with argparse
+- Added --threshold, --window, --email, --block, --dry-run flags
+- Added colored terminal output and proper help text
 
-### Output
-- `regex_cheat_sheet.md` with plain-English explanations
-- I can now read and write any SSH detection rule
-
-**Day 23 → CLOSED**
-Month 1: 23/30 (77%) – still 6 days ahead!
+### Live Examples
+```bash
+python detector.py --threshold 3 --window 5 --email --block
+python detector.py --dry-run        # safe testing

@@ -5,6 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import json
 import argparse
+import os
 
 # Config (make these variables for eas tweaking)
 LOG_FILE = 'fake_auth.log'
@@ -93,17 +94,59 @@ def send_email(alerts, from_email=EMAIL_FROM, to_email=EMAIL_TO, password=EMAIL_
             print(f"Email failed: {e}")
             return False
 
+def load_blocked_ips():
+    """Helper function – reads blocked_ips.txt (used by --block flag)"""
+    blocked = []
+    if os.path.exists('month1/blocked_ips.txt'):
+        with open('month1/blocked_ips.txt', 'r') as f:
+            blocked = [line.strip() for line in f if line.strip()]
+    return blocked
+
 # Main execution (CLI preview: python detector.py --threshold 5)
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Detect log anomalies.")
-    parser.add_argument('--threshld', type=int, default=THRESHOLD, help="Fail threshold")
-    parser.add_argument('--window', type=int, default=WINDOW_MINUTES, help="Time window mins")
+
+    parser = argparse.ArgumentParser(
+        description="SSH Brute-Force Detecor - Cyber Blueprint 2026",
+        epilog="Example: python3 detector.py --threshold  --window 15 --email"
+    )
+    parser.add_argument('--threshold', type=int, default=5, 
+                        help="Miniumn failed attempts to trigger alert (default: 5)")
+    parser.add_argument('--window', type=int, default=15, 
+                        help="Time window minutes (default: 15)")
+    parser.add_argument('--log', type=str, default='month1/fake_auth.log',
+                        help='Path to auth log (default: month1/fake_auth.log)')
+    parser.add_argument('--email', action='store_true',
+                        help="Send email alert if threats detected")
+    parser.add_argument('--block', action='store_true',
+                        help='Auto-block worst offender in blocked_ips.txt')
+    parser.add_argument('--dry-run', action='store_true',
+                        help="Show alerts but do NOT write files or send email")
     args = parser.parse_args()
 
-    alerts = detect_anomalies(LOG_FILE, args.threshold, args.window)
+    print(f"[+] Scanning {args.log} | Threshold: {args.threshold} in {args.window}min")
+    alerts = detect_anomalies(args.log, args.threshold, args.window)
+
     if alerts:
-        export_alerts(alerts)
-        send_email(alerts)
-        print(f"Dectected {len(alerts)} anomalies.")
+        print(f"[!!!] {len(alerts)} BRUTE-FORCE ATTACK(S) DETECTED")
+        for a in alerts:
+            print(f" → {a['source_ip']:15} | {a['attempts']:2} attempts | Severity: {a['severity']}")
+        
+        if not args.dry_run:
+            export_alerts(alerts, 'month1/alerts.json')
+            if args.email:
+                send_email(alerts)
+            if args.block:
+                worst_ip = max(alerts, key=lambda x: x['attempts'])['source_ip']
+                blocked = load_blocked_ips()
+                if worst_ip not in blocked:
+                    with open('month1/blocked_ips.txt', 'a') as f:
+                        f.write(worst_ip + '\n')
+                    print(f"[BLOCKED] {worst_ip} → added to blocked_ips.txt")
+                else: 
+                    print(f"[INFO] {worst_ip} already blocked")
     else:
-        print("No anomalies detected.")
+        print("[+] All clear - no threats")
+
+    if args.dry_run:
+        print("[DRY-RUN] No changes made to disk or email")
+        
