@@ -10,5 +10,5 @@
 
 ### Live Examples
 ```bash
-python detector.py --threshold 3 --window 5 --email --block
-python detector.py --dry-run        # safe testing
+python3 detector.py --threshold 3 --window 5 --email --block
+python3 detector.py --dry-run        # safe testing
