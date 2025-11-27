@@ -5688,3 +5688,1841 @@
 }
 2025-11-25 07:40:01,326 | INFO | === EMAIL ALERTS MODULE STARTED ===
 2025-11-25 07:40:01,328 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-25 07:45:01,357 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-25 07:45:01,357 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-25 07:45:01,361 | INFO | Parsed 5 failed logins
+2025-11-25 07:45:01,362 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-25 07:45:01,362 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-25 07:45:01,362 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-25 07:45:01,429 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-25 07:45:01,431 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-25 07:50:01,429 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-25 07:50:01,429 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-25 07:50:01,435 | INFO | Parsed 5 failed logins
+2025-11-25 07:50:01,435 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-25 07:50:01,436 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-25 07:50:01,436 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-25 07:50:01,524 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-25 07:50:01,526 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-25 07:55:01,377 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-25 07:55:01,377 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-25 07:55:01,381 | INFO | Parsed 5 failed logins
+2025-11-25 07:55:01,381 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-25 07:55:01,381 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-25 07:55:01,382 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-25 07:55:01,446 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-25 07:55:01,448 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-25 08:00:01,400 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-25 08:00:01,400 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-25 08:00:01,405 | INFO | Parsed 5 failed logins
+2025-11-25 08:00:01,405 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-25 08:00:01,405 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-25 08:00:01,405 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-25 08:00:01,484 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-25 08:00:01,486 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-26 20:55:01,391 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-26 20:55:01,483 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-26 20:55:01,553 | INFO | Parsed 5 failed logins
+2025-11-26 20:55:01,553 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-26 20:55:01,553 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-26 20:55:01,554 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-26 20:55:01,676 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-26 20:55:01,678 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 07:45:01,847 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 07:45:01,913 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 07:45:01,971 | INFO | Parsed 5 failed logins
+2025-11-27 07:45:01,971 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 07:45:01,971 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 07:45:01,971 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 07:45:02,064 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 07:45:02,066 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 07:50:01,206 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 07:50:01,206 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 07:50:01,210 | INFO | Parsed 5 failed logins
+2025-11-27 07:50:01,210 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 07:50:01,210 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 07:50:01,211 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 07:50:01,274 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 07:50:01,275 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 07:55:01,561 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 07:55:01,562 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 07:55:01,566 | INFO | Parsed 5 failed logins
+2025-11-27 07:55:01,566 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 07:55:01,566 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 07:55:01,566 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 07:55:01,632 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 07:55:01,633 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:00:01,611 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:00:01,611 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:00:01,616 | INFO | Parsed 5 failed logins
+2025-11-27 08:00:01,616 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:00:01,616 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:00:01,617 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:00:01,683 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:00:01,685 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:05:01,599 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:05:01,600 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:05:01,607 | INFO | Parsed 5 failed logins
+2025-11-27 08:05:01,608 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:05:01,608 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:05:01,608 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    7,
+    15,
+    4,
+    6
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:05:01,735 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:05:01,739 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:10:01,707 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:10:01,707 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:10:01,711 | INFO | Parsed 5 failed logins
+2025-11-27 08:10:01,711 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:10:01,712 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:10:01,712 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:10:01,778 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:10:01,780 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:15:01,813 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:15:01,814 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:15:01,821 | INFO | Parsed 5 failed logins
+2025-11-27 08:15:01,822 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:15:01,822 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:15:01,822 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:15:01,968 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:15:01,973 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:20:01,747 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:20:01,748 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:20:01,755 | INFO | Parsed 5 failed logins
+2025-11-27 08:20:01,756 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:20:01,756 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:20:01,756 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:20:01,857 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:20:01,859 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:25:01,751 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:25:01,751 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:25:01,756 | INFO | Parsed 5 failed logins
+2025-11-27 08:25:01,757 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:25:01,757 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:25:01,758 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:25:01,887 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:25:01,890 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:30:01,876 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:30:01,876 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:30:01,880 | INFO | Parsed 5 failed logins
+2025-11-27 08:30:01,880 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:30:01,881 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:30:01,881 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:30:01,952 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:30:01,955 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:35:01,267 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:35:01,267 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:35:01,273 | INFO | Parsed 5 failed logins
+2025-11-27 08:35:01,273 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:35:01,274 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:35:01,274 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:35:01,365 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:35:01,367 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:40:01,858 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:40:01,858 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:40:01,865 | INFO | Parsed 5 failed logins
+2025-11-27 08:40:01,865 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:40:01,866 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:40:01,866 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:40:01,953 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:40:01,957 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:45:01,856 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:45:01,857 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:45:01,861 | INFO | Parsed 5 failed logins
+2025-11-27 08:45:01,861 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:45:01,861 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:45:01,862 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:45:01,930 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:45:01,932 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:50:02,022 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:50:02,022 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:50:02,028 | INFO | Parsed 5 failed logins
+2025-11-27 08:50:02,029 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:50:02,029 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:50:02,029 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:50:02,124 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:50:02,126 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 08:55:01,981 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 08:55:01,981 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 08:55:01,986 | INFO | Parsed 5 failed logins
+2025-11-27 08:55:01,986 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 08:55:01,987 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 08:55:01,987 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    18,
+    7,
+    9,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 08:55:02,053 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 08:55:02,055 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 09:00:02,090 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 09:00:02,090 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 09:00:02,097 | INFO | Parsed 5 failed logins
+2025-11-27 09:00:02,097 | WARNING | ALERT: 203.0.113.27 → 4 attempts in window
+2025-11-27 09:00:02,098 | INFO | Exported 1 alert(s) to month1/alerts.json
+2025-11-27 09:00:02,098 | INFO | Sample: {
+  "alert_type": "BRUTE_FORCE_15MIN",
+  "ip": "203.0.113.27",
+  "attempt_count": 4,
+  "window_minutes": 9,
+  "first_attempt": "2025-11-01T09:00:00",
+  "last_attempt": "2025-11-01T09:09:00",
+  "log_lines": [
+    16,
+    11,
+    5,
+    17
+  ],
+  "severity": "CRITICAL",
+  "recommendation": "BLOCK IP + INVESTIGATE"
+}
+2025-11-27 09:00:02,196 | INFO | === EMAIL ALERTS MODULE STARTED ===
+2025-11-27 09:00:02,200 | WARNING | ALERT: 203.0.113.27 → 4 attempts
+2025-11-27 09:05:02,075 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 09:05:02,076 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 7: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 10: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 11: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 12: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 13: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 14: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 15: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 16: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 18: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 19: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 20: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 22: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,080 | WARNING | Bad timestamp at line 23: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 24: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 26: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 27: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 28: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 30: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 31: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 32: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 34: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 35: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 36: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 37: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 38: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 39: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 40: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,081 | WARNING | Bad timestamp at line 41: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 42: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 44: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 45: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 46: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 47: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 48: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 50: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 52: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 53: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 54: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 55: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 57: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 58: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,082 | WARNING | Bad timestamp at line 59: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 60: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 61: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 62: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 63: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 64: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 66: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 67: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 69: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 71: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 72: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 73: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 74: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,083 | WARNING | Bad timestamp at line 75: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 77: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 78: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 80: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 82: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 83: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 84: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 85: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 88: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 89: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 90: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 92: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 93: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 95: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 96: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,084 | WARNING | Bad timestamp at line 97: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 98: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 102: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 103: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 104: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 106: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 108: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 110: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 111: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 112: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 113: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 114: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 116: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 117: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,085 | WARNING | Bad timestamp at line 118: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 119: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 121: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 122: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 123: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 124: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 125: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 126: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 127: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 128: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 129: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 131: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 135: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,086 | WARNING | Bad timestamp at line 137: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 144: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 145: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 146: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 147: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 150: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 151: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 153: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 154: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 155: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 157: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 158: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 159: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,087 | WARNING | Bad timestamp at line 160: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 161: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 162: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 163: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 164: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 165: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 166: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 167: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 168: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 170: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 171: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 172: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 173: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 174: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 175: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 176: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,088 | WARNING | Bad timestamp at line 177: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 178: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 181: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 182: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 183: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 184: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 185: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 187: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 188: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 189: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 190: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 191: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 192: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 194: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 196: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 197: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,089 | WARNING | Bad timestamp at line 199: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 200: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 202: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 204: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 207: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 208: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 209: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 210: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 212: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 213: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 214: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 216: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 217: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 218: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 219: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 222: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,090 | WARNING | Bad timestamp at line 223: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 224: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 225: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 227: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 228: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 229: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 230: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 231: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 232: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 233: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | WARNING | Bad timestamp at line 234: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:05:02,091 | INFO | Parsed 0 failed logins
+2025-11-27 09:05:02,091 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 09:05:02,092 | INFO | No alerts generated.
+2025-11-27 09:10:01,191 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 09:10:01,191 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,195 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,196 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,197 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,198 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,199 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,200 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,201 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,202 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,203 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,204 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,205 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,206 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 09:10:01,207 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 09:10:01,207 | INFO | Parsed 0 failed logins
+2025-11-27 09:10:01,207 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 09:10:01,207 | INFO | No alerts generated.
+2025-11-27 12:05:02,331 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:05:02,363 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:05:02,416 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,417 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,417 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,417 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,417 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,417 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,418 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,418 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,418 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,418 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,418 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,419 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,419 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,419 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,419 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,419 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,419 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,419 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,420 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,420 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,420 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,420 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,420 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,420 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,421 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,421 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,421 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,421 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,421 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,421 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,422 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,422 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,422 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,422 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,422 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,422 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,422 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,423 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,423 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,423 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,423 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,423 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,423 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,424 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,424 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,424 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,424 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,424 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,424 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,424 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,425 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,425 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,425 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,425 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,425 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,425 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,426 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,426 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,426 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,426 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,426 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,427 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,427 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,427 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,427 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,427 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,427 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,428 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,428 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,428 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,428 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,428 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,428 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,428 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,429 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,429 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,429 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,429 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,429 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,429 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,430 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,430 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,430 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,430 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,430 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,430 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,430 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,431 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,431 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,431 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,431 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,431 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,431 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,432 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,432 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,432 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,432 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,432 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,432 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,432 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,433 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,433 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,433 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,433 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,433 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,433 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,434 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,434 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,434 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,434 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,434 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,434 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:05:02,434 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,435 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,435 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,435 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,435 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,435 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,435 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,435 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,436 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:05:02,436 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:05:02,436 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,436 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:05:02,436 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:05:02,436 | INFO | Parsed 0 failed logins
+2025-11-27 12:05:02,438 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:05:02,438 | INFO | No alerts generated.
+2025-11-27 12:10:01,549 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:10:01,549 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:10:01,553 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,553 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,554 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,555 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,556 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,557 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,558 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,559 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,560 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:10:01,561 | INFO | Parsed 0 failed logins
+2025-11-27 12:10:01,561 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:10:01,561 | INFO | No alerts generated.
+2025-11-27 12:15:01,665 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:15:01,665 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:15:01,669 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,669 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,669 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,670 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,671 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,672 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,673 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,674 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,675 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,676 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:15:01,677 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:15:01,678 | INFO | Parsed 0 failed logins
+2025-11-27 12:15:01,678 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:15:01,678 | INFO | No alerts generated.
+2025-11-27 12:20:01,780 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:20:01,781 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:20:01,785 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,785 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,785 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,785 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,785 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,785 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,785 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,786 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,787 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,788 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,789 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,790 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,791 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,792 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,793 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,794 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:20:01,794 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:20:01,794 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,794 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:20:01,794 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:20:01,794 | INFO | Parsed 0 failed logins
+2025-11-27 12:20:01,794 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:20:01,794 | INFO | No alerts generated.
+2025-11-27 12:25:01,903 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:25:01,903 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:25:01,907 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,908 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,909 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,910 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,911 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,912 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,913 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,914 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:25:01,915 | INFO | Parsed 0 failed logins
+2025-11-27 12:25:01,915 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:25:01,915 | INFO | No alerts generated.
+2025-11-27 12:30:02,004 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:30:02,004 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,008 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,009 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,010 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,011 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,012 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,013 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,014 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:30:02,015 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:30:02,016 | INFO | Parsed 0 failed logins
+2025-11-27 12:30:02,016 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:30:02,016 | INFO | No alerts generated.
+2025-11-27 12:35:01,130 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:35:01,130 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:35:01,135 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,135 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,136 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,136 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,136 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,136 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,136 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,136 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,136 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,137 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,138 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,139 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,140 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,141 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,142 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,143 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,144 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,145 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,146 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,147 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,148 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,149 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:35:01,149 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:35:01,149 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,149 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:35:01,149 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:35:01,149 | INFO | Parsed 0 failed logins
+2025-11-27 12:35:01,149 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:35:01,150 | INFO | No alerts generated.
+2025-11-27 12:40:01,246 | INFO | === BRUTE-FORCE DETECTOR STARTED ===
+2025-11-27 12:40:01,246 | INFO | Config: {'log_file': 'month1/fake_auth.log', 'output_file': 'month1/alerts.json', 'threshold_count': 3, 'time_window_minutes': 15, 'log_level': 'INFO', 'alert_title': 'BRUTE_FORCE_15MIN', 'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_from': 'suleephraim1@gmail.com', 'email_to': 'cyberlootkeeper@gmail.com', 'email_password': 'uwijddtfwdtmmony'}
+2025-11-27 12:40:01,251 | WARNING | Bad timestamp at line 5: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,251 | WARNING | Bad timestamp at line 6: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,251 | WARNING | Bad timestamp at line 7: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,251 | WARNING | Bad timestamp at line 8: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 10: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 12: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 13: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 14: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 15: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 17: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 18: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,252 | WARNING | Bad timestamp at line 19: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 21: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 22: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 23: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 25: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 26: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 27: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 28: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 29: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,253 | WARNING | Bad timestamp at line 30: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 31: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 32: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 33: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 34: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 35: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 36: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 37: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,254 | WARNING | Bad timestamp at line 38: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 39: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 40: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 41: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 43: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 44: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 45: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 46: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 47: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 48: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,255 | WARNING | Bad timestamp at line 49: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 50: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 51: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 52: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 53: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 54: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 55: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 56: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 58: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,256 | WARNING | Bad timestamp at line 59: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 60: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 61: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 62: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 64: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 65: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 66: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 67: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 68: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,257 | WARNING | Bad timestamp at line 69: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 70: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 72: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 73: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 75: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 76: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 78: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 79: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,258 | WARNING | Bad timestamp at line 80: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 81: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 82: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 83: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 84: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 85: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 86: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 87: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 88: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 89: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,259 | WARNING | Bad timestamp at line 90: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 91: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 92: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 95: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 96: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 97: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 98: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 99: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 100: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 101: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 102: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 103: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 104: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 105: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 106: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 107: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 109: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,260 | WARNING | Bad timestamp at line 110: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 111: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 112: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 113: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 114: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 115: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 116: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 117: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 118: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 119: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 120: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 121: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 122: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 123: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 124: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 125: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,261 | WARNING | Bad timestamp at line 126: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 127: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 128: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 129: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 130: 11/01/2025 09:39:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 131: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 132: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 133: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 134: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 135: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 136: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 137: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,262 | WARNING | Bad timestamp at line 138: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,263 | WARNING | Bad timestamp at line 139: 11/01/2025 09:33:00 AM -EventID: 4625
+2025-11-27 12:40:01,263 | WARNING | Bad timestamp at line 141: 11/01/2025 09:42:00 AM -EventID: 4625
+2025-11-27 12:40:01,263 | WARNING | Bad timestamp at line 142: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,263 | WARNING | Bad timestamp at line 143: 11/01/2025 09:36:00 AM -EventID: 4625
+2025-11-27 12:40:01,263 | WARNING | Bad timestamp at line 144: 11/01/2025 09:30:00 AM -EventID: 4625
+2025-11-27 12:40:01,263 | INFO | Parsed 0 failed logins
+2025-11-27 12:40:01,263 | INFO | Exported 0 alert(s) to month1/alerts.json
+2025-11-27 12:40:01,263 | INFO | No alerts generated.
