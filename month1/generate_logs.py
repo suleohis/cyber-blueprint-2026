@@ -1,49 +1,29 @@
 #! /usr/bin/env python3
-"""
-Windows Failed Logon (EventID 4625) Generator – Cyber Blueprint 2026
-Now with full CLI arguments – safe upgrade for Month 1
-
-Usage:
-    python generate_logs.py                 → 1 brute-force burst (your original)
-    python generate_logs.py 5               → 5 separate brute-force attacks
-    python generate_logs.py 10 --normal 20  → 10 attacks + 20 normal logons
-"""
-
 import random
 from datetime import datetime, timedelta
 import argparse
 import os
 
 def generate_brute_force_burst(start_time, ip="203.0.113.27", user="charlie"):
-    """Generate exactly 5 failed logons in 12 minutes (your original pattern)"""
     lines = []
-    times = [0, 3, 6, 9, 12]
+    times = [0, 3, 6, 9, 12]  # 5 fails in 12 minutes
     for m in times:
         t = start_time + timedelta(minutes=m)
-        line = (
-            f"{t.strftime('%m/%d/%Y %I:%M:%S %p')} -"
-            f"EventID: 4625 - Account: {user} - Workstation: WKSTN-01 -"
-            f"Source IP: {ip} - failed to log on"
-        )
+        line = f"{t.strftime('%m/%d/%Y %I:%M:%S %p')} - EventID: 4625 - Account: {user} - Workstation: WKSTN-01 - Source IP: {ip} - failed to log on"
         lines.append(line)
     return lines
 
 def generate_normal_logons(count=10, start_time=None):
-    """Generate random successful logons/logoffs"""
     if start_time is None:
-        start_time = datetime.now()
+        start_time = datetime.now() - timedelta(hours=2)
     lines = []
     for _ in range(count):
-        t = start_time + timedelta(minutes=random.randint(15, 100))
-        event = random.choice([4624, 4634]) # 4624 = logon, 4632  logoff
-        user = random.choice(["alice", "bob", "dave", "john", "sarah"])
+        t = start_time + timedelta(minutes=random.randint(0, 120))
+        event = random.choice([4624, 4634])
+        user = random.choice(["alice", "bob", "dave"])
         ip = f"192.168.1.{random.randint(10, 50)}"
         desc = "logged on" if event == 4624 else "logged off"
-        line = (
-            f"{t.strftime('%m/%d/%Y %I:%M:%S %p')} - "
-            f"EventID: {event} - Account: {user} - Workstation: LAPTOP-03 - "
-            f"Source IP: {ip} - {desc}"
-        )
+        line = f"{t.strftime('%m/%d/%Y %I:%M:%S %p')} - EventID: {event} - Account: {user} - Workstation: LAPTOP-03 - Source IP: {ip} - {desc}"
         lines.append(line)
     return lines
 
@@ -74,11 +54,11 @@ def main():
     os.makedirs("month1", exist_ok=True)
 
     all_lines = []
-    base_time = datetime(2025, 11, 1, 9, 0, 0)
+    base_time = datetime.now() - timedelta(hours=1)
 
     # Generate requested number of brute-force bursts
     for i in range(args.bursts):
-        offset = 1 * 30 # space them 30 minuttes apart
+        offset = i * 30 # space them 30 minuttes apart
         burst_time = base_time + timedelta(minutes=offset)
         all_lines.extend(generate_brute_force_burst(burst_time, args.ip, args.user))
 
