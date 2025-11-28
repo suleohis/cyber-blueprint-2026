@@ -17,17 +17,21 @@ THRESHOLD = 5
 WINDOW_MINUTES = 15 
 
 def parse_line(line):
-    """Parse a single log line for timestamp, IP, and event. Returns dict or None if invalid."""
-    # Regex from Day 2 (Ch.9, pp. 185-200): Matches timestamp, IP, user, port
-    pattern = r'(\w{3}\s+\d{1,2}\s+\d{2}:\d{2}:\d{2})\s+\S+\s+sshd$$ \d+ $$:\s+(Failed password for \S+ from )(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) port \d+ ssh2'
-    match = re.search(pattern, line.strip())
-    if match:
-        ts_str, _, ip = match.group()
-        # Parse timestamp to datetime object
-        ts = datetime.strptime(ts_str, '%b %d %H:%M:%S')
-        ts = ts.replace(year=datetime.now().year) # Assume current year
-        return {'timestamp': ts, 'ip': ip, 'event': 'failed_login'}
-    return None
+    line = line.strip()
+    if "EventID: 4625" not in line:
+        return None
+    try:
+        # Fixed: Proper split with space after dash
+        parts = [p.strip() for p in line.split(" - ")]
+        dt_str = parts[0]  # "11/01/2025 09:00:00 AM"
+        timestamp = datetime.strptime(dt_str, "%m/%d/%Y %I:%M:%S %p")
+        
+        ip_part = [p for p in parts if p.startswith("Source IP:")][0]
+        ip = ip_part.split(":", 1)[1].strip()
+        
+        return {"timestamp": timestamp, "ip": ip}
+    except:
+        return None
 
 def detect_anomalies(log_file, threshold=THRESHOLD, window_minutes=WINDOW_MINUTES):
     """Scan log for anomalies in sliding time window. Returns list of alert dicts."""
@@ -53,7 +57,7 @@ def detect_anomalies(log_file, threshold=THRESHOLD, window_minutes=WINDOW_MINUTE
                 "source_ip": ip,
                 "attempts": len(timestamps),
                 "first_seen": min(timestamps).isoformat(),
-                "last_seen": max(timestamps).isoforma(),
+                "last_seen": max(timestamps).isoformat(),
                 "severity": "CRITICAL" if len(timestamps) > 20 else "HIGH" if len(timestamps) > 10 else "MEDIUM",
                 "detection_rule": "SSH Brute Force (15-min window)",
                 "status": "new",
@@ -78,7 +82,13 @@ def send_email(alerts, from_email=EMAIL_FROM, to_email=EMAIL_TO, password=EMAIL_
 
     body = 'High-severity alerts:\n\n'
     for alert in alerts:
-        body += f"- IP {alert['ip']}: {alert['count']} fails from {alert['first_seen']} to {alert['last_seen']} (Severity: {alert['severity']})\n"
+        body += (
+                    f"• IP: {alert['source_ip']}\n"
+                    f"  Attempts: {alert['attempts']}\n"
+                    f"  Time Window: {alert['first_seen']} → {alert['last_seen']}\n"
+                    f"  Severity: {alert['severity']}\n"
+                    f"  Rule: {alert['detection_rule']}\n\n"
+                )
         msg.attach(MIMEText(body, 'plain'))
 
         try:
