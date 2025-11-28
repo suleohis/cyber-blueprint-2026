@@ -7,4 +7,4 @@
 - Real-time EventID 4625 brute-force detection
 - Matplotlib attack timeline
 - 253 malicious IPs automatically blocked
-- Full SOC workflow in pure Python
+- Full SOC workflow in pure Python  

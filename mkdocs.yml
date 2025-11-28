@@ -46,4 +46,4 @@ markdown_extensions:
   - admonition
   - pymdownx.superfences
   - pymdownx.tabbed
-  - pymdownx.tasklist
+  - pymdownx.tasklist 

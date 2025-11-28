@@ -10,4 +10,4 @@ GitHub → [github.com/suleohis/cyber-blueprint-2026](https://github.com/suleohi
     - Real-time brute-force detection (EventID 4625)
     - Streamlit + Matplotlib live dashboard
     - Auto-email alerts + IP blocking
-    - One-click deploy with `./start_soc.sh`
+    - One-click deploy with `./start_soc.sh`  
