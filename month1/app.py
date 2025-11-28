@@ -33,7 +33,7 @@ def history():
 @app.route('/')
 def dashboard():
     alerts = detect_anomalies('month1/fake_auth.log')
-    export_alerts(alerts, 'month1/alerts.json')
+    export_alerts(alerts)
     blocked = load_blocked_ips()
     history_count = 0
     if os.path.exists('month1/alerts_history.json'):
@@ -78,10 +78,10 @@ def clear_alerts():
 @app.route('/run-now')
 def run_now():
     alerts = detect_anomalies('month1/fake_auth.log')
-    export_alerts(alerts, 'month1/alerts.json')
+    export_alerts(alerts,)
     if alerts:
         send_email(alerts)
-        worst_ip = max(alerts, key=lambda x: x['count'])['ip']
+        worst_ip = max(alerts, key=lambda x: x['attempts'])['source_ip']
         with open('month1/blocked_ips.txt', 'a') as f:
             if worst_ip not in load_blocked_ips():
                 f.write(worst_ip +  "\n")

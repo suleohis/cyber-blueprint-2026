@@ -1,9 +1,12 @@
-# Nigeria's First Autonomous SOC 🇳🇬
+# Cyber Blueprint 2026 – Real-Time Mini-SIEM
 
-**ONE COMMAND DEPLOY**
+![Live Dashboard](docs/images/dashboard.png)
 
-```bash
-git clone https://github.com/suleohis/cyber-blueprint-2026.git
-cd cyber-blueprint-2026
-chmod +x start_soc.sh
-./start_soc.sh
+**30-day zero-to-production SOC tooling journey** | Built by suleohis
+
+- Detects Windows EventID 4625 brute-force in real time
+- Streamlit + Matplotlib live visualization
+- Auto-email alerts + IP blocking
+- One-click deploy: `./start_soc.sh`
+
+Live Site → https://suleohis.github.io/cyber-blueprint-2026 (after Day 28)
