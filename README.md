@@ -2,11 +2,22 @@
 
 ![Live Dashboard](docs/images/dashboard.png)
 
-**30-day zero-to-production SOC tooling journey** | Built by suleohis
+**30-day journey from zero to production-grade SOC tooling**  
+**Live Site → https://suleohis.github.io/cyber-blueprint-2026**  
+**One-click demo → `./start_soc.sh`**
 
-- Detects Windows EventID 4625 brute-force in real time
-- Streamlit + Matplotlib live visualization
-- Auto-email alerts + IP blocking
-- One-click deploy: `./start_soc.sh`
+### Features
+- Real-time Windows EventID 4625 brute-force detection
+- Streamlit + Matplotlib live dashboard with attack timeline
+- Auto-email alerts via Gmail
+- Automatic IP blocking
+- Professional documentation site (MkDocs + Material)
 
-Live Site → https://suleohis.github.io/cyber-blueprint-2026 (after Day 28)
+### Quick Start
+```bash
+git clone https://github.com/suleohis/cyber-blueprint-2026.git
+cd cyber-blueprint-2026
+./start_soc.sh          # ← generates attacks + launches dashboard
+# Open http://localhost:8501
+
+Live Site → https://suleohis.github.io/cyber-blueprint-2026 
