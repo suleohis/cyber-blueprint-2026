@@ -21,3 +21,5 @@ cd cyber-blueprint-2026
 # Open http://localhost:8501
 
 Live Site → https://suleohis.github.io/cyber-blueprint-2026 
+
+[![3-Minute Live Demo – One-Click SIEM](screenshots/day30.png)](https://www.loom.com/share/623b439befed419fb347f7a8e04fe22e)
