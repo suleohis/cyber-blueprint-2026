@@ -14,8 +14,8 @@ echo "Starting Flask dashboard on http://127.0.0.1:5000"
 echo "Press Ctrl+C to stop"
 echo ""
 
-# Run Flask app
-python month1/app.py
+# Generate logs
+python month1/generate_logs.py 25 --normal 15
 
 # Run StreamLit
 streamlit run month1/streamlit_dashboard.py 
