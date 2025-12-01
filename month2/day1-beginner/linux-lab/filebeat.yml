@@ -1,0 +1,17 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/auth.log
+      - /var/log/secure
+      - /var/log/syslog
+      - /var/log/messages
+
+  # THIS IS THE MAGIC LINE FOR MODERN LINUX (journald)
+  - type: journald
+    enabled: true
+    include_matches:
+      - _SYSTEMD_UNIT=ssh.service
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
