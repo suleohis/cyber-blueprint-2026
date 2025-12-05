@@ -1,39 +1,40 @@
 services:
-  es:
+  elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.15.2
     container_name: elasticsearch
     environment:
       - discovery.type=single-node
-      - xpack.security.enabled=false
-      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+      - xpack.security.enabled=true
+      - ELASTIC_PASSWORD=changeme
     ulimits:
       memlock: -1
+      nofile: 65536
     ports:
       - 9200:9200
-    volumes:
-      - esdata:/usr/share/elasticsearch/data
 
   kibana:
     image: docker.elastic.co/kibana/kibana:8.15.2
     container_name: kibana
-    ports:
-      - 5601:5601
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=changeme
+    ports:
+      - 5601:5601
     depends_on:
-      - es
+      - elasticsearch
 
   filebeat:
     image: docker.elastic.co/beats/filebeat:8.15.2
     container_name: filebeat
     user: root
-    command: filebeat -e -strict.perms=false
     volumes:
       - ./filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
-      - /var/log:/var/log:ro
-      - /var/run/utmp:/var/run/utmp:ro
+      - /var/log/auth.log:/var/log/auth.log:ro
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=changeme
     depends_on:
-      - es
+      - elasticsearch
 
-volumes:
-  esdata:

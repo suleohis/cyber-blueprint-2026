@@ -12,7 +12,7 @@ LOG_FILE = 'fake_auth.log'
 ALERTS_FILE  = 'alerts.json'
 EMAIL_FROM = 'suleephraim1@gmail.com'
 EMAIL_TO = 'cyberlootkeeper@gmail.cm'
-EMAIL_PASSWORD = 'uwijddtfwdtmmony'
+EMAIL_PASSWORD = ''
 THRESHOLD = 5
 WINDOW_MINUTES = 15 
 
